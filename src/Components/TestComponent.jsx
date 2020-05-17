@@ -13,4 +13,4 @@ const mapStateToProps = (state) => ({
     auth: state.authInfo.auth
 });
 
-export default connect(mapStateToProps, [])(TestComponent)
+export default connect(mapStateToProps, {})(TestComponent)

@@ -1,16 +1,14 @@
 import * as moysklad from "moysklad";
-//import * as fetch from "node-fetch";
-require("isomorphic-fetch");
+import fetch from 'node-fetch';
+import * as axios from "axios"
 
-const login = "admin@dima-0510";
-const password = "Lama1200";
-const ms = moysklad({login,
-                            password,
-                            });
-console.log(ms.getOptions());
+
+const ms = axios.create({
+    baseURL: 'http://localhost:5000/'
+});
 
 export const authAPI = {
     auth() {
-        return ms.GET(`/entity/product`,{limit:1})
+        return ms.get(`entity/product`,{limit:1}).then(res=>res.data)
     }
 };
