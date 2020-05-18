@@ -39,7 +39,10 @@ serv.get("/entity/product", (req, res)=>{
     }
 
     ms.GET("entity/product", {limit, offset}).then(require=>{
-        res.json(require.rows)
+        const answer = {};
+        answer.products = require.rows;
+        answer.size = require.meta.size;
+        res.json(answer);
     },err=>{
         res.error(err)
     });
