@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="" />
+    <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +120,7 @@
       <workItem from="1589673621219" duration="7143000" />
       <workItem from="1589725947538" duration="9005000" />
       <workItem from="1589743895199" duration="2217000" />
-      <workItem from="1589824790327" duration="4611000" />
+      <workItem from="1589824790327" duration="5251000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -182,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589829387808</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="localhost req">
+      <created>1589829638095</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589829638095</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,13 +221,14 @@
     <MESSAGE value="before deploy 3.2" />
     <MESSAGE value="before deploy 4" />
     <MESSAGE value="second listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="second listener" />
+    <MESSAGE value="localhost req" />
+    <option name="LAST_COMMIT_MESSAGE" value="localhost req" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2" timestamp="1589829386877">
+    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2" timestamp="1589829636707">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1589829386877" />
+    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1589829636707" />
     <state x="242" y="130" width="1024" height="600" key="DiffContextDialog" timestamp="1589679984872">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

@@ -1,16 +1,11 @@
-const express = require('express');
-
 const moysklad = require("moysklad");
 require('isomorphic-fetch');
 
-const app = require('express')();
-const app2 = require('express')();
+const serv = require('express')();
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
-const favicon = require('express-favicon');
-const path = require('path');
-const port = process.env.PORT || 3000;
+
 
 const corsOptions = {
     credentials: true, // This is important.
@@ -20,16 +15,10 @@ const corsOptions = {
 };
 
 
-app2.use(bodyParser.json());
-app2.use(bodyParser.urlencoded({extended: true}));
-app2.use(cookieParser("HelloWorld"));
-app2.use(cors(corsOptions));
-
-app.use(favicon(__dirname + '/build/favicon.png'));
-
-//здесь наше приложение отдаёт статику
-app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname, 'build')));
+serv.use(bodyParser.json());
+serv.use(bodyParser.urlencoded({extended: true}));
+serv.use(cookieParser("HelloWorld"));
+serv.use(cors(corsOptions));
 
 const login = "admin@dima-0510";
 const password = "794cdc36689b";
@@ -38,7 +27,7 @@ const ms = moysklad({
     password
 });
 
-app2.get("/entity/product", (req, res)=>{
+serv.get("/entity/product", (req, res)=>{
     let limit = 25;
     let offset = 0;
 
@@ -56,14 +45,29 @@ app2.get("/entity/product", (req, res)=>{
     });
 });
 
+serv.listen(5000, () => {
+    console.log("server started");
+});
+
+
+//-------------------------------------
+const express = require('express');
+const app = require('express')();
+const favicon = require('express-favicon');
+const path = require('path');
+const port = process.env.PORT || 3000;
+
+app.use(favicon(__dirname + '/build/favicon.png'));
+//здесь наше приложение отдаёт статику
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'build')));
+
 app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app2.listen(5000, () => {
-    console.log("server 2 started");
+app.listen(port, () => {
+    console.log("React app started");
 });
 
-app.listen(port, () => {
-    console.log("server started");
-});
+//-------------------------------------
