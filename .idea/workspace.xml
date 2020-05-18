@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Server_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/dima_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/dima_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TestComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TestComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/AuthReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/AuthReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1c0lskBcNsyCYmCzAFWQWRDytuA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -111,7 +107,9 @@
       <option name="presentableId" value="Default" />
       <updated>1589673604046</updated>
       <workItem from="1589673621219" duration="7143000" />
-      <workItem from="1589725947538" duration="8956000" />
+      <workItem from="1589725947538" duration="9005000" />
+      <workItem from="1589743895199" duration="2217000" />
+      <workItem from="1589824790327" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -120,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589680824406</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Server_script.js">
+      <created>1589735128820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589735128820</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,13 +146,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test get request" />
-    <option name="LAST_COMMIT_MESSAGE" value="test get request" />
+    <MESSAGE value="add Server_script.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Server_script.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="25" key="CommitChangelistDialog2" timestamp="1589680822255">
+    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2" timestamp="1589824995637">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="379" y="25" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1589680822255" />
+    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1589824995637" />
     <state x="242" y="130" width="1024" height="600" key="DiffContextDialog" timestamp="1589679984872">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -156,25 +162,25 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="576" y="285" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1589727532781" />
-    <state width="1166" height="269" key="GridCell.Tab.0.bottom" timestamp="1589735108396">
+    <state width="1166" height="269" key="GridCell.Tab.0.bottom" timestamp="1589735132700">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1166" height="269" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1589735108396" />
-    <state width="1166" height="269" key="GridCell.Tab.0.center" timestamp="1589735108396">
+    <state width="1166" height="269" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1589735132700" />
+    <state width="1166" height="269" key="GridCell.Tab.0.center" timestamp="1589735132700">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1166" height="269" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1589735108396" />
-    <state width="1166" height="269" key="GridCell.Tab.0.left" timestamp="1589735108396">
+    <state width="1166" height="269" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1589735132700" />
+    <state width="1166" height="269" key="GridCell.Tab.0.left" timestamp="1589735132700">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1166" height="269" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1589735108396" />
-    <state width="1166" height="269" key="GridCell.Tab.0.right" timestamp="1589735108396">
+    <state width="1166" height="269" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1589735132700" />
+    <state width="1166" height="269" key="GridCell.Tab.0.right" timestamp="1589735132700">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1166" height="269" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1589735108396" />
-    <state x="558" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1589726571312">
+    <state width="1166" height="269" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1589735132700" />
+    <state x="558" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1589824884352">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="558" y="321" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1589726571312" />
+    <state x="558" y="321" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1589824884352" />
   </component>
 </project>
