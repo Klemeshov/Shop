@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/AuthReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/AuthReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dima-\PhpstormProjects\online_store" />
       <recent name="C:\Users\dima-\PhpstormProjects\online_store\src\redux" />
     </key>
   </component>
@@ -91,8 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.server" />
         <item itemvalue="npm.run" />
+        <item itemvalue="npm.server" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +112,7 @@
       <workItem from="1589673621219" duration="7143000" />
       <workItem from="1589725947538" duration="9005000" />
       <workItem from="1589743895199" duration="2217000" />
-      <workItem from="1589824790327" duration="196000" />
+      <workItem from="1589824790327" duration="1383000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -125,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589735128820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="before deploy 1">
+      <created>1589825046975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589825046975</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,13 +157,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test get request" />
     <MESSAGE value="add Server_script.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Server_script.js" />
+    <MESSAGE value="before deploy 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="before deploy 1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2" timestamp="1589824995637">
+    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2" timestamp="1589825045751">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1589824995637" />
+    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1589825045751" />
     <state x="242" y="130" width="1024" height="600" key="DiffContextDialog" timestamp="1589679984872">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -162,22 +173,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="576" y="285" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1589727532781" />
-    <state width="1166" height="269" key="GridCell.Tab.0.bottom" timestamp="1589735132700">
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom" timestamp="1589826173783">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1166" height="269" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1589735132700" />
-    <state width="1166" height="269" key="GridCell.Tab.0.center" timestamp="1589735132700">
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1589826173783" />
+    <state width="1493" height="286" key="GridCell.Tab.0.center" timestamp="1589826173783">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1166" height="269" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1589735132700" />
-    <state width="1166" height="269" key="GridCell.Tab.0.left" timestamp="1589735132700">
+    <state width="1493" height="286" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1589826173783" />
+    <state width="1493" height="286" key="GridCell.Tab.0.left" timestamp="1589826173783">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1166" height="269" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1589735132700" />
-    <state width="1166" height="269" key="GridCell.Tab.0.right" timestamp="1589735132700">
+    <state width="1493" height="286" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1589826173783" />
+    <state width="1493" height="286" key="GridCell.Tab.0.right" timestamp="1589826173783">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1166" height="269" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1589735132700" />
+    <state width="1493" height="286" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1589826173783" />
     <state x="558" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1589824884352">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

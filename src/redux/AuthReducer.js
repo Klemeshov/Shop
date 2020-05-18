@@ -23,8 +23,6 @@ export const setAuth = (auth) => ({type: SET_AUTH, auth});
 export const Auth = () => async (dispatch) => {
 
     authAPI.auth().then(response=>{
-        debugger
-        console.log("response: " + response[0]);
         dispatch(setAuth(true));
     }, err=> {
         console.log("err: " + err)
