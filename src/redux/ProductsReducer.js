@@ -44,7 +44,7 @@ export const getProducts = (limit, offset) => async (dispatch)=>{
     dispatch(setFetching(false));
 };
 
-export const setFetching = (fetch) => ({type: SET_FETCHING, fetch});
+const setFetching = (fetch) => ({type: SET_FETCHING, fetch});
 export const changePage = (page) => ({type: CHANGE_PAGE, page});
 
 export default ProductsReducer;

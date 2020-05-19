@@ -1,7 +1,7 @@
 import React from "react";
 import DefaultPage from "../DefaultPage/DefaultPageContainer";
 import {Route} from "react-router-dom";
-import FindPage from "../FindPage/FindPageContainer";
+import SearchPageContainer from "../SearchPage/SearchPageContainer";
 
 const MainContent = (props) => {
     return (
@@ -9,7 +9,7 @@ const MainContent = (props) => {
             <Route exact path='/'
                    render={() => <DefaultPage/>}/>
             <Route path='/search'
-                   render={() => <FindPage/>}/>
+                   render={() => <SearchPageContainer/>}/>
         </div>
     )
 };

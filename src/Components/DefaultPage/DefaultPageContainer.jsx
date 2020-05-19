@@ -1,8 +1,8 @@
 import React from "react";
 import {connect} from "react-redux";
 import {changePage, getProducts} from "../../redux/ProductsReducer";
-import DefaultPage from "./DefaultPage"
 import Preloader from "../common/Preloader/Preloader";
+import ShowProducts from "../common/ShowProducts/ShowProducts";
 
 class DefaultPageContainer extends React.Component {
 
@@ -21,7 +21,7 @@ class DefaultPageContainer extends React.Component {
                 {this.props.isFetching
                     ? <Preloader/>
 
-                    : <DefaultPage
+                    : <ShowProducts
                         products={this.props.products}
                         totalCount={this.props.size}
                         pageSize={10}
