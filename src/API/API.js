@@ -1,33 +1,12 @@
-import * as moysklad from "moysklad";
-// import fetch from 'node-fetch';
-// import * as axios from "axios"
-//
-// const ms = axios.create({
-//     baseURL: 'http://127.0.0.1:5000/'
-// });
-//
-//
-// export const ProductsAPI = {
-//     getProducts(limit, offset){
-//         return ms.get(`/entity/product`, {params: {limit, offset}}).then(res=>res.data)
-//     }
-// };
+import * as axios from "axios"
 
-
-const login = "admin@dima-0510";
-const password = "794cdc36689b";
-const ms = moysklad({
-    login,
-    password
+const ms = axios.create({
+    baseURL: 'https://web-server-for-shop.herokuapp.com/'
 });
+
 
 export const ProductsAPI = {
     getProducts(limit, offset){
-        return ms.GET("entity/product", {limit, offset}).then(require=>{
-            const answer = {};
-            answer.products = require.rows;
-            answer.size = require.meta.size;
-            return answer
-        });
+        return ms.get(`/entity/product`, {params: {limit, offset}}).then(res=>res.data)
     }
 };
