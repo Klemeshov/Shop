@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
     </list>
@@ -61,7 +60,7 @@
       <recent name="C:\Users\dima-\PhpstormProjects\online_store" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.run">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -103,8 +102,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.run" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +121,8 @@
       <workItem from="1589725947538" duration="9005000" />
       <workItem from="1589743895199" duration="2217000" />
       <workItem from="1589824790327" duration="23097000" />
-      <workItem from="1589850479325" duration="543000" />
+      <workItem from="1589850479325" duration="2315000" />
+      <workItem from="1589900619575" duration="480000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589850079921</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix bug with redirect ip address">
+      <created>1589851252101</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589851252101</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +263,8 @@
     <MESSAGE value="clean test dependencies" />
     <MESSAGE value="Default page" />
     <MESSAGE value="add layout for search page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add layout for search page" />
+    <MESSAGE value="fix bug with redirect ip address" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug with redirect ip address" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589831694084">
@@ -267,38 +275,38 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1589830743348" />
-    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2" timestamp="1589850077671">
+    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2" timestamp="1589851250533">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1589850077671" />
-    <state x="242" y="130" width="1024" height="600" key="DiffContextDialog" timestamp="1589679984872">
+    <state x="566" y="45" width="749" height="783" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1589851250533" />
+    <state x="242" y="130" width="1024" height="600" key="DiffContextDialog" timestamp="1589852795818">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="242" y="130" width="1024" height="600" key="DiffContextDialog/0.30.1536.834@0.30.1536.834" timestamp="1589679984872" />
+    <state x="242" y="130" width="1024" height="600" key="DiffContextDialog/0.30.1536.834@0.30.1536.834" timestamp="1589852795818" />
     <state x="576" y="285" key="FileChooserDialogImpl" timestamp="1589727532781">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="576" y="285" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1589727532781" />
-    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1589851195640">
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1589901113055">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1589851195640" />
-    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1589851195639">
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1589901113055" />
+    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1589901113055">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1589851195639" />
-    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1589851195639">
+    <state width="1493" height="247" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1589901113055" />
+    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1589901113055">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1589851195639" />
-    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1589851195640">
+    <state width="1493" height="247" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1589901113055" />
+    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1589901113055">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1589851195640" />
-    <state x="558" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1589850480226">
+    <state width="1493" height="247" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1589901113055" />
+    <state x="558" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1589900687831">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="558" y="321" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1589850480226" />
+    <state x="558" y="321" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1589900687831" />
     <state x="425" y="204" key="run.anything.popup" timestamp="1589849395566">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
