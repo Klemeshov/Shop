@@ -1,10 +1,10 @@
 // import * as moysklad from "moysklad";
 // import fetch from 'node-fetch';
 import * as axios from "axios"
-
+import * as ip from "ip"
 
 const ms = axios.create({
-    baseURL: 'http://localhost:5000/'
+    baseURL: 'http://'+ip.address()+':5000/'
 });
 
 

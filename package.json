@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "express": "latest",
     "express-favicon": "^2.0.1",
+    "ip": "^1.1.5",
     "isomorphic-fetch": "^2.2.1",
     "moysklad": "^0.7.2",
     "node-fetch": "^2.6.0",
