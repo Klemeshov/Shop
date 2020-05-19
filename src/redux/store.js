@@ -2,11 +2,13 @@ import {applyMiddleware, combineReducers, compose, createStore} from "redux";
 import {reducer as formReducer} from "redux-form";
 import thunk from "redux-thunk";
 import ProductsReducer from "./ProductsReducer";
+import FindReducer from "./FindReducer";
 
 let reducers = combineReducers(
     {
         form: formReducer,
-        products: ProductsReducer
+        products: ProductsReducer,
+        find: FindReducer
     });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

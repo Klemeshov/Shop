@@ -1,13 +1,6 @@
 import React from "react";
 import classes from "./DefaultPage.module.css"
-
-const Product = (props) => {
-    return (
-        <div>
-            {props.info.name}
-        </div>
-    )
-};
+import Product from "../common/Product/Product";
 
 const DefaultPage = (props) => {
 
@@ -20,7 +13,7 @@ const DefaultPage = (props) => {
     return (
         <div>
             <div>
-                {props.products.map(p => <Product info={p}/>)}
+                {props.products.map(p => <Product info={p} key={p.id}/>)}
             </div>
             <div>
                 {pages.map(p =>
@@ -28,7 +21,8 @@ const DefaultPage = (props) => {
                         onClick={props.changePage(p)}
                         className={props.page === p
                             ?classes.page + ' '+ classes.currentPage
-                            :classes.page}>
+                            :classes.page}
+                        key={p}>
                         {p + 1}
                     </span>)}
             </div>
