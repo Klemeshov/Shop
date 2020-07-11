@@ -1,5 +1,21 @@
+.container{
+
+}
+
+.content{
+    background-color: white;
+    padding: 1px;
+    width: 80vw;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.paginator{
+    margin: 5px 5px 10px 10px;
+}
+
 .page {
-    margin-left: 4px;
+    margin-left: 5px;
     padding: 0 4px;
     cursor: pointer;
     border: 1px solid dodgerblue;
