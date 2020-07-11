@@ -3,12 +3,14 @@ import {reducer as formReducer} from "redux-form";
 import thunk from "redux-thunk";
 import ProductsReducer from "./ProductsReducer";
 import SearchReducer from "./SearchReducer";
+import CartReducer from "./CartReducer";
 
 let reducers = combineReducers(
     {
         form: formReducer,
         products: ProductsReducer,
-        search: SearchReducer
+        search: SearchReducer,
+        cart: CartReducer
     });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

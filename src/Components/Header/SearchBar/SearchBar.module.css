@@ -1,0 +1,21 @@
+.SearchBar{
+    margin: 0 auto;
+}
+
+.Input{
+    height: 18px;
+    width: 50vw;
+    min-width: 100px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.Input:focus{
+    outline: none;
+}
+
+.Img{
+    width: 18px;
+    margin-top: 14px;
+    margin-left: 6px;
+}

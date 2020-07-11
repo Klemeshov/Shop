@@ -1,5 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
+import SearchIcon from "./../../../assets/img/Header/search.png"
+import classes from "./SearchBar.module.css"
 
 class SearchBar extends React.Component {
 
@@ -13,10 +15,10 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <div>
-                <input onChange={this.onValueChange} value={this.state.currentValue}/>
+            <div className={classes.SearchBar}>
+                <input className={classes.Input} onChange={this.onValueChange} value={this.state.currentValue}/>
                 <NavLink to={"/search?value=" + this.state.currentValue}>
-                    search
+                    <img className={classes.Img} src={SearchIcon} alt="search"/>
                 </NavLink>
             </div>
         )

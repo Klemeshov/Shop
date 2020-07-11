@@ -2,6 +2,8 @@ import React from "react";
 import Product from "../Product/Product";
 import classes from "./ShowProducts.module.css";
 
+
+
 const ShowProducts = (props) => {
     let pageCount = Math.ceil(props.totalCount / props.pageSize);
     let pages = [];

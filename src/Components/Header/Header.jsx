@@ -2,12 +2,16 @@ import React from "react";
 import classes from "./Header.module.css"
 import SearchBar from "./SearchBar/SearchBar";
 import {NavLink} from "react-router-dom";
+import Cart from "./Cart/Cart";
 
-const Header = (props) =>{
-    return(
+const Header = (props) => {
+    return (
         <header className={classes.Header}>
-            <NavLink to="/"> HOME </NavLink>
+            <div className={classes.HoneContainer}>
+                <NavLink className={classes.Home} to="/"> HOME </NavLink>
+            </div>
             <SearchBar/>
+            <Cart/>
         </header>
     )
 };

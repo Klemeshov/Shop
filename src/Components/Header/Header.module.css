@@ -1,3 +1,18 @@
 .Header{
-    background-color: deepskyblue;
+    background-color: skyblue;
+    display: flex;
+}
+
+.HoneContainer{
+    align-items: center;
+    margin: auto 0 auto 5vw;
+}
+
+.Home{
+    color: black;
+    font-size: 20px;
+}
+
+.Home:hover{
+    color: coral;
 }
