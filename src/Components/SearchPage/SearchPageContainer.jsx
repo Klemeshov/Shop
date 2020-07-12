@@ -24,7 +24,7 @@ class SearchPageContainer extends React.PureComponent {
         }
     }
 
-    changePage = (page) => () => {
+    changePage = (page) =>{
         this.props.getProductsAfterSearch(10, page * 10, this.state.value);
         this.props.changePage(page)
     };

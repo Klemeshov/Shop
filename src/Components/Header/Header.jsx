@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Header.module.css"
 import SearchBar from "./SearchBar/SearchBar";
 import {NavLink} from "react-router-dom";
-import Cart from "./Cart/Cart";
+import Cart from "./Cart/CartIcon";
 
 const Header = (props) => {
     return (

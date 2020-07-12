@@ -10,7 +10,7 @@ class DefaultPageContainer extends React.Component {
         this.props.getProducts(10, 0);
     }
 
-    changePage = (page) => () => {
+    changePage = (page) => {
         this.props.getProducts(10, page * 10);
         this.props.changePage(page)
     };

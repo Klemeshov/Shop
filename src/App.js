@@ -12,8 +12,9 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <Header className = "Header"/>
+                <Header/>
                 <div className="MainContent">
+                    <div className="Head">шапка</div>
                     <React.Suspense fallback={<Preloader/>}>
                         <MainContent className='MainContent'/>
                     </React.Suspense>

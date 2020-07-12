@@ -1,38 +1,36 @@
-.container{
-
+.paginatorContainer{
+    display: flex;
 }
 
-.content{
-    background-color: white;
-    padding: 1px;
-    width: 80vw;
-    min-width: 800px;
-    margin: 0 auto;
-}
-
-.paginator{
-    margin: 5px 5px 10px 10px;
+.paginator {
+    margin: 5px auto;
+    align-content: center;
 }
 
 .page {
     margin-left: 5px;
     padding: 0 4px;
     cursor: pointer;
-    border: 1px solid dodgerblue;
+    font-size: 20px;
+    border-left: 1px solid skyblue;
+    border-right: 1px solid skyblue;
+    border-radius: 10px ;
 }
 
-.page:hover{
-    background-color: dodgerblue;
+.page:hover {
+    background-color: skyblue;
     color: white;
+    transition: 300ms;
 }
 
 .currentPage {
-    color: red;
+    color: coral;
     cursor: default;
+    border: none;
 }
 
-.currentPage:hover{
-    background-color: #DCDCDC;
-    color: red;
+.currentPage:hover {
+    background-color: white;
+    color: coral;
     cursor: default;
 }

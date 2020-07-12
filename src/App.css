@@ -7,12 +7,9 @@ a{
     text-decoration: none;
 }
 
-.App{
-    display: grid;
-    grid-template-areas: "Header" "MainContent";
-    grid-template-rows: 60px 1fr;
+.Head{
+    height: 60px;
 }
-
 .MainContent{
     background-color: #DCDCDC;
 }

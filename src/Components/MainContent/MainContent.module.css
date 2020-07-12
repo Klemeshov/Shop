@@ -1,0 +1,11 @@
+.container {
+    min-height: 100vh;
+}
+
+.content {
+    background-color: white;
+    padding: 1px;
+    width: 80vw;
+    min-width: 800px;
+    margin: 0 auto;
+}

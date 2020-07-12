@@ -1,4 +1,7 @@
 .Header{
+    width: 100vw;
+    height: 60px;
+    position: fixed;
     background-color: skyblue;
     display: flex;
 }

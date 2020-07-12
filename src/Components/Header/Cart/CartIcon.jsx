@@ -2,9 +2,9 @@ import React from "react";
 import {connect} from "react-redux";
 import CartImg from "./../../../assets/img/Header/Cart.png"
 import {NavLink} from "react-router-dom";
-import classes from "./Cart.module.css"
+import classes from "./CartIcon.module.css"
 
-const Cart = (props) => {
+const CartIcon = (props) => {
     return (
         <NavLink to={"/cart"}>
             {props.size}
@@ -18,4 +18,4 @@ const mapStateToProps = (state) => ({
     size: state.cart.size
 });
 
-export default connect(mapStateToProps, {})(Cart);
+export default connect(mapStateToProps, {})(CartIcon);
