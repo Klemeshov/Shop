@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/online_store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/online_store.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/SearchBar/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/SearchBar/SearchBar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +47,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_server_for_shop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -104,8 +112,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.run" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +134,7 @@
       <workItem from="1589850479325" duration="2315000" />
       <workItem from="1589900619575" duration="8472000" />
       <workItem from="1589925401863" duration="1222000" />
+      <workItem from="1594696739081" duration="4823000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -302,6 +311,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add simple Search Bar" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#ESLint" timestamp="1594696942397">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#ESLint/0.0.1536.864@0.0.1536.864" timestamp="1594696942397" />
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589831694084">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -318,29 +331,35 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="242" y="130" width="1024" height="600" key="DiffContextDialog/0.30.1536.834@0.30.1536.834" timestamp="1589852795818" />
-    <state x="576" y="285" key="FileChooserDialogImpl" timestamp="1589902738030">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state x="576" y="264" key="FileChooserDialogImpl" timestamp="1594696783377">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state x="576" y="264" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1594696783377" />
     <state x="576" y="285" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1589902738030" />
-    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1589919247727">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1594701575296">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594701575296" />
     <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1589919247727" />
-    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1589919247727">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1594701575295">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1594701575295" />
     <state width="1493" height="247" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1589919247727" />
-    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1589919247726">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1594701575295">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1594701575295" />
     <state width="1493" height="247" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1589919247726" />
-    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1589919247727">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1594701575295">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1594701575295" />
     <state width="1493" height="247" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1589919247727" />
-    <state x="558" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1589900687831">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state x="558" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1594696745502">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state x="558" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1594696745502" />
     <state x="558" y="321" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1589900687831" />
     <state x="425" y="204" key="run.anything.popup" timestamp="1589849395566">
       <screen x="0" y="30" width="1536" height="834" />

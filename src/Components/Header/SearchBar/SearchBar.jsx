@@ -1,7 +1,8 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import {NavLink, withRouter} from "react-router-dom";
 import SearchIcon from "./../../../assets/img/Header/search.png"
 import classes from "./SearchBar.module.css"
+
 
 class SearchBar extends React.Component {
 
@@ -16,7 +17,15 @@ class SearchBar extends React.Component {
     render() {
         return (
             <div className={classes.SearchBar}>
-                <input className={classes.Input} onChange={this.onValueChange} value={this.state.currentValue}/>
+                <input
+                    className={classes.Input}
+                    onChange={this.onValueChange}
+                    value={this.state.currentValue}
+                    placeholder="Search"
+                    onKeyPress={e => {
+                        if (e.key === "Enter")
+                            this.props.history.push("/search?value=" + this.state.currentValue);
+                    }}/>
                 <NavLink to={"/search?value=" + this.state.currentValue}>
                     <img className={classes.Img} src={SearchIcon} alt="search"/>
                 </NavLink>
@@ -25,4 +34,5 @@ class SearchBar extends React.Component {
     }
 }
 
-export default SearchBar;
+
+export default withRouter(SearchBar);
