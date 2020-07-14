@@ -27,7 +27,9 @@ class SearchBar extends React.Component {
                             this.props.history.push("/search?value=" + this.state.currentValue);
                     }}/>
                 <NavLink to={"/search?value=" + this.state.currentValue}>
-                    <img className={classes.Img} src={SearchIcon} alt="search"/>
+                    <img className={classes.Img}
+                         src={SearchIcon}
+                         alt="search"/>
                 </NavLink>
             </div>
         )

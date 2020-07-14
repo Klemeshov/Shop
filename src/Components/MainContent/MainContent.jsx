@@ -1,6 +1,6 @@
 import React from "react";
 import DefaultPage from "../DefaultPage/DefaultPageContainer";
-import {Route} from "react-router-dom";
+import {Route, withRouter} from "react-router-dom";
 import SearchPageContainer from "../SearchPage/SearchPageContainer";
 import Cart from "../Cart/Cart";
 import classes from "./MainContent.module.css"
@@ -20,4 +20,4 @@ const MainContent = (props) => {
     )
 };
 
-export default MainContent
+export default withRouter(MainContent);
