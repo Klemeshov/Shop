@@ -6,10 +6,12 @@ import classes from "./CartIcon.module.css"
 
 const CartIcon = (props) => {
     return (
-        <NavLink to={"/cart"}>
-            {props.size}
-            <img className={classes.CartImg} src={CartImg} alt="cart"/>
-        </NavLink>
+        <div onClick={props.cleanValue}>
+            <NavLink to={"/cart"}>
+                {props.size}
+                <img className={classes.CartImg} src={CartImg} alt="cart"/>
+            </NavLink>
+        </div>
     )
 };
 

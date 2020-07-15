@@ -2,6 +2,7 @@ import React from "react";
 import {connect} from "react-redux";
 import CartItem from "./CartItem";
 import {addProductToCart, removeProductFromCart} from "../../redux/CartReducer";
+import Counterparty from "./Counterparty/Counterparty";
 
 
 class Cart extends React.Component {
@@ -15,19 +16,24 @@ class Cart extends React.Component {
         return (
             <div>
                 <div>
-                    {this.props.products.length > 0
-                        ? this.props.products.map(product =>
-                            <CartItem
-                                info={product}
-                                addProduct={this.props.addOneProduct}
-                                removeProduct={this.props.removeOneProduct}/>)
-                        : "Корзина пуста"
-                    }
+                    <div>
+                        {this.props.size > 0
+                            ? this.props.products.map(product =>
+                                <CartItem
+                                    info={product}
+                                    addProduct={this.props.addOneProduct}
+                                    removeProduct={this.props.removeOneProduct}/>)
+                            : "Корзина пуста"
+                        }
+                    </div>
+                    <div>
+                        <h5>
+                            Общая стоймость: {price} руб.
+                        </h5>
+                    </div>
                 </div>
                 <div>
-                    <h5>
-                        Общая стоймость: {price} руб.
-                    </h5>
+                    <Counterparty/>
                 </div>
             </div>
         )
