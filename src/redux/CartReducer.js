@@ -64,16 +64,21 @@ const CartReducer = (state = initialState, action) => {
 export const addProductToCart = (product) => ({type: ADD_PRODUCT, product});
 export const removeProductFromCart = (id) => ({type: REMOVE_PRODUCT, id});
 
-const setCounterparty = (isCounterparty) =>({type: IS_COUNTERPARTY, isCounterparty});
-export const isCounterpartyCheck = (name, phone ,email) => async (dispatch) =>{
+const setCounterparty = (isCounterparty) => ({type: IS_COUNTERPARTY, isCounterparty});
+export const isCounterpartyCheck = (name, phone, email) => async (dispatch) => {
     dispatch(setCounterparty("wait"));
 
     let data = await CounterpartyAPI.checkCounterparty(name, phone, email);
-    if (data.size > 0){
-        dispatch(setCounterparty("OK"))
-    }else{
-        dispatch(setCounterparty("none"))
+    if (data.size > 0) {
+        dispatch(setCounterparty(data.counterpartys[0].meta.href));
+    } else {
+        dispatch(createCounterparty(name, phone, email));
     }
+};
+
+const createCounterparty = (name, phone, email) => async (dispatch) => {
+    let data = await CounterpartyAPI.createCounterparty(name, phone, email);
+    dispatch(setCounterparty(data.meta.href));
 };
 
 

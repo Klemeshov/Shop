@@ -14,7 +14,7 @@ class SearchBar extends React.Component {
                     onChange={this.props.onValueChange}
                     value={this.props.currentValue}
                     placeholder="Search"
-                    onKeyPress={e => {
+                        onKeyPress={e => {
                         if (e.key === "Enter")
                             this.props.history.push("/search?value=" + this.props.currentValue);
                     }}/>

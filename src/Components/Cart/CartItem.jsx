@@ -1,6 +1,6 @@
 import React from "react";
 import default_img from "../../assets/img/products/default_photo.jpg";
-import classes from "./Cart.module.css"
+import classes from "./CartItem.module.css"
 
 const CartItem = (props) => {
     return (

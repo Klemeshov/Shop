@@ -1,0 +1,52 @@
+.Input{
+    width: 20vw;
+    height: 20px;
+    margin-top: 15px;
+    padding: 7px;
+    border: 1px skyblue solid;
+    border-radius: 10px;
+}
+
+.Input:focus{
+    outline: none;
+}
+
+.ErrorInput{
+    border: 2px coral solid;
+}
+
+.TextArea{
+    resize:vertical;
+    width: 20vw;
+    min-height: 200px;
+    height: 20vh;
+    margin-top: 15px;
+    padding: 7px;
+    border: 1px skyblue solid;
+    border-radius: 10px;
+}
+
+.TextArea{
+    outline: none;
+}
+
+.Button{
+    width: 20vw;
+    padding: 7px;
+    border: 1px skyblue solid;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}
+
+.Button:hover{
+    background-color: coral;
+    color: white;
+}
+
+.Button:focus{
+    outline: none;
+}

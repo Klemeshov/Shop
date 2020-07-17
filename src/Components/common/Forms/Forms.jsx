@@ -8,9 +8,11 @@ export const Input = ({input, meta, ...props}) => {
         <div>
             <div>
                 <input{...input} {...props}
-                      className={props.className + ' ' + (isError?classes.errorForm:"")}/>
+                      className={isError
+                          ?(classes.errorForm + ' ' + props.className + ' ' + props.ErrorClassName )
+                          :props.className}/>
             </div>
-            {isError ? <span className={classes.error + ' ' + props.ErrorClassName}>
+            {isError ? <span className={classes.error}>
                 {meta.error}
             </span> : <></>}
         </div>

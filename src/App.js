@@ -16,7 +16,7 @@ class App extends React.Component {
                 <div className="MainContent">
                     <div className="Head">шапка</div>
                     <React.Suspense fallback={<Preloader/>}>
-                        <MainContent className='MainContent'/>
+                        <MainContent/>
                     </React.Suspense>
                 </div>
             </div>

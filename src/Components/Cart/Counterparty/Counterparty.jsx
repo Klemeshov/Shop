@@ -3,35 +3,54 @@ import {Field, reduxForm} from "redux-form";
 import {connect} from "react-redux";
 import {isCounterpartyCheck} from "../../../redux/CartReducer";
 import {Input} from "../../common/Forms/Forms";
-import {required} from "../../../Validators/Validators";
+import {email, phone, required} from "../../../Validators/Validators";
+import classes from "./Counterparty.module.css"
 
 const CounterpartyForm = reduxForm({form: 'counterparty'})((props) => {
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
                 <Field component={Input}
-                       // ErrorClassName={}
+                       className={classes.Input}
+                       ErrorClassName={classes.ErrorInput}
                        name={"name"}
                        validate={required}
                        placeholder={'name'}/>
             </div>
             <div>
                 <Field component={Input}
-                       //ErrorClassName={}
+                       className={classes.Input}
+                       ErrorClassName={classes.ErrorInput}
                        name={"phone"}
-                       validate={required}
+                       validate={[required, phone]}
                        placeholder={'phone'}/>
             </div>
             <div>
                 <Field component={Input}
-                       //ErrorClassName={}
+                       className={classes.Input}
+                       ErrorClassName={classes.ErrorInput}
                        name={"email"}
-                       validate={required}
+                       validate={[required, email]}
                        placeholder={'email'}/>
             </div>
             <div>
-                <button>
-                    submit
+                <Field component={Input}
+                       className={classes.Input}
+                       ErrorClassName={classes.ErrorInput}
+                       name={"address"}
+                       validate={[required, email]}
+                       placeholder={'address'}/>
+            </div>
+            <div>
+                <Field component={"textarea"}
+                       className={classes.TextArea}
+                       name={"Comment"}
+                       validate={[required, email]}
+                       placeholder={'Комментарий к заказу'}/>
+            </div>
+            <div>
+                <button className={classes.Button}>
+                    Оформить заказ
                 </button>
             </div>
         </form>
@@ -43,8 +62,8 @@ const submitForm = (isCounterpartyCheck) => (formData) => {
     isCounterpartyCheck(formData.name, formData.phone, formData.email);
 };
 
-const Counterparty = (props)=>{
-    return(
+const Counterparty = (props) => {
+    return (
         <div>
             <div>
                 <CounterpartyForm onSubmit={submitForm(props.isCounterpartyCheck)}/>
@@ -56,7 +75,7 @@ const Counterparty = (props)=>{
     )
 };
 
-const mapStateToProps = (state) =>({
+const mapStateToProps = (state) => ({
     isCounterparty: state.cart.isCounterparty
 });
 

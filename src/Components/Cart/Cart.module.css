@@ -1,31 +1,26 @@
-.Product {
-    display: flex;
+.CartContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-
-.Photo {
-    width: 300px;
-    height: 170px;
-    border: 1px solid black;
+.OrderInscription{
+    font-size: 30px;
     margin: 5px;
+    color: skyblue;
 }
 
-
-.Info {
-    margin-left: 10px;
+.CartInscription{
+    font-size: 20px;
+    padding: 5px;
+    background-color: coral;
+    color: white;
 }
 
-.CountContainer {
-    display: flex;
-    margin-left: 10px;
-    margin-top: 4px;
+.Counterparty{
+    padding-left: 35%;
 }
 
-.Button {
-    padding: 1px;
-}
-
-.Count {
-    margin: 0 5px;
-    padding: 1px;
+.Price{
+    font-size: 30px;
+    color: skyblue;
 }
