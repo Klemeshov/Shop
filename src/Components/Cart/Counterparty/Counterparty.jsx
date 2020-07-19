@@ -38,14 +38,13 @@ const CounterpartyForm = reduxForm({form: 'counterparty'})((props) => {
                        className={classes.Input}
                        ErrorClassName={classes.ErrorInput}
                        name={"address"}
-                       validate={[required, email]}
+                       validate={required}
                        placeholder={'address'}/>
             </div>
             <div>
                 <Field component={"textarea"}
                        className={classes.TextArea}
                        name={"Comment"}
-                       validate={[required, email]}
                        placeholder={'Комментарий к заказу'}/>
             </div>
             <div>
