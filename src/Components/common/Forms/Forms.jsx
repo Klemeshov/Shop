@@ -9,7 +9,7 @@ export const Input = ({input, meta, ...props}) => {
             <div>
                 <input{...input} {...props}
                       className={isError
-                          ?(classes.errorForm + ' ' + props.className + ' ' + props.ErrorClassName )
+                          ?(classes.errorForm + ' ' + props.className + ' ' + props.errorclassname)
                           :props.className}/>
             </div>
             {isError ? <span className={classes.error}>

@@ -21,7 +21,7 @@ class Header extends React.Component {
     render() {
         return (
             <header className={classes.Header}>
-                <div className={classes.HoneContainer} onClick={this.cleanValue}>
+                <div className={classes.HomeContainer} onClick={this.cleanValue}>
                     <NavLink className={classes.Home} to="/"> HOME </NavLink>
                 </div>
                 <SearchBar currentValue={this.state.currentValue} onValueChange={this.onValueChange}/>

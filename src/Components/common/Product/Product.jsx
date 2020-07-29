@@ -13,8 +13,8 @@ const Product = (props) => {
             <div>
                 <div className={classes.Info}>
                     <h4>{props.info.name}</h4>
-                    Колличество - {props.info.volume} шт.<p/>
-                    {Number(props.info.salePrices[0].value) / 100} руб.
+                    Колличество - {props.info.quantity} шт.<p/>
+                    {Number(props.info.salePrice) / 100} руб.
                 </div>
                 <button className={classes.Button} onClick={()=>{
                     props.addToCart(props.info);

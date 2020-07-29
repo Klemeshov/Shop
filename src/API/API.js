@@ -9,7 +9,7 @@ const ms = axios.create({
 
 export const ProductsAPI = {
     getProducts(limit = 10, offset = 0, search = ""){
-        return ms.get(`/entity/product`, {params: {limit, offset, search}}).then(res=>res.data)
+        return ms.get(`/report/stock/all`, {params: {limit, offset, search}}).then(res=>res.data)
     }
 };
 

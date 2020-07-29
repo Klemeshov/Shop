@@ -9,8 +9,9 @@ class Cart extends React.Component {
     render() {
         let price = 0;
         for (let u = 0; u < this.props.products.length; u++) {
-            price += this.props.products[u].count * this.props.products[u].salePrices[0].value / 100
+            price += this.props.products[u].count * this.props.products[u].salePrice
         }
+        price/=100;
         return (
             <div className={classes.CartContent}>
                 <div>

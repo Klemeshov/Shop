@@ -12,16 +12,16 @@ const CartItem = (props) => {
                 <div className={classes.Info}>
                     <h4>{props.info.name}</h4>
                     Колличество - {props.info.volume} шт.<p/>
-                    {Number(props.info.salePrices[0].value) / 100} руб.
+                    {Number(props.info.salePrice) / 100} руб.
                 </div>
                 <div className={classes.CountContainer}>
-                    <button onClick={()=>{props.removeProduct(props.info.id)}}>-</button>
+                    <button onClick={()=>{props.removeProduct(props.info.code)}}>-</button>
                     <div className={classes.Count}>{props.info.count}</div>
                     <button onClick={()=>{props.addProduct(props.info)}}>+</button>
                 </div>
                 <p/>
                 <div className={classes.Info}>
-                    стоймость:  {props.info.count * props.info.salePrices[0].value / 100} руб.
+                    стоймость:  {props.info.count * props.info.salePrice / 100} руб.
                 </div>
             </div>
         </div>

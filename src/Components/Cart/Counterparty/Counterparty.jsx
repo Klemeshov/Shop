@@ -12,7 +12,7 @@ const CounterpartyForm = reduxForm({form: 'counterparty'})((props) => {
             <div>
                 <Field component={Input}
                        className={classes.Input}
-                       ErrorClassName={classes.ErrorInput}
+                       errorclassname={classes.ErrorInput}
                        name={"name"}
                        validate={required}
                        placeholder={'name'}/>
@@ -20,7 +20,7 @@ const CounterpartyForm = reduxForm({form: 'counterparty'})((props) => {
             <div>
                 <Field component={Input}
                        className={classes.Input}
-                       ErrorClassName={classes.ErrorInput}
+                       errorclassname={classes.ErrorInput}
                        name={"phone"}
                        validate={[required, phone]}
                        placeholder={'phone'}/>
@@ -28,7 +28,7 @@ const CounterpartyForm = reduxForm({form: 'counterparty'})((props) => {
             <div>
                 <Field component={Input}
                        className={classes.Input}
-                       ErrorClassName={classes.ErrorInput}
+                       errorclassname={classes.ErrorInput}
                        name={"email"}
                        validate={[required, email]}
                        placeholder={'email'}/>
@@ -36,7 +36,7 @@ const CounterpartyForm = reduxForm({form: 'counterparty'})((props) => {
             <div>
                 <Field component={Input}
                        className={classes.Input}
-                       ErrorClassName={classes.ErrorInput}
+                       errorclassname={classes.ErrorInput}
                        name={"address"}
                        validate={required}
                        placeholder={'address'}/>

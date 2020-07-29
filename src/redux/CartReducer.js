@@ -13,11 +13,11 @@ let initialState = {
 const CartReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_PRODUCT:
-            if (state.products.find(product => product.id === action.product.id)) {
+            if (state.products.find(product => product.code === action.product.code)) {
                 return {
                     ...state,
-                    products: state.products.map(product => {
-                        if (product.id === action.product.id)
+                        products: state.products.map(product => {
+                        if (product.code === action.product.code)
                             return {
                                 ...product,
                                 count: product.count + 1
@@ -37,7 +37,7 @@ const CartReducer = (state = initialState, action) => {
         case REMOVE_PRODUCT:
             let newProducts = [];
             for (let i = 0; i < state.products.length; i++) {
-                if (state.products[i].id !== action.id)
+                if (state.products[i].code !== action.code)
                     newProducts.push(state.products[i]);
                 else if (state.products[i].count > 1)
                     newProducts.push({
@@ -62,7 +62,7 @@ const CartReducer = (state = initialState, action) => {
 };
 
 export const addProductToCart = (product) => ({type: ADD_PRODUCT, product});
-export const removeProductFromCart = (id) => ({type: REMOVE_PRODUCT, id});
+export const removeProductFromCart = (code) => ({type: REMOVE_PRODUCT, code});
 
 const setCounterparty = (isCounterparty) => ({type: IS_COUNTERPARTY, isCounterparty});
 export const isCounterpartyCheck = (name, phone, email) => async (dispatch) => {

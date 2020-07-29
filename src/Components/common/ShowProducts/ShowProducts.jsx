@@ -36,7 +36,7 @@ const ShowProducts = (props) => {
             <Paginator {...props}/>
             <div>
                 {props.products.length !== 0
-                    ? props.products.map(p => <Product info={p} key={p.id}/>)
+                    ? props.products.map(p => <Product info={p} key={p.code}/>)
                     : "Ничего нет"
                 }
             </div>
