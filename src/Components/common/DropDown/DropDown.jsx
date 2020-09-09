@@ -18,7 +18,7 @@ class DropDown extends React.Component {
 
     render() {
         return (
-            <div className={classes.dropDown}>
+            <div>
                 <button className={this.props.nameClassName
                                     + ' ' + classes.name}
                         onClick={this.changeExact}>

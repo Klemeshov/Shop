@@ -3,6 +3,7 @@ import default_img from "./../../../assets/img/products/default_photo.jpg";
 import classes from "./Product.module.css"
 import {connect} from "react-redux";
 import {addProductToCart} from "../../../redux/CartReducer";
+import NotificationButton from "../NotificationButton/NotificationButton";
 
 const Product = (props) => {
     return (
@@ -16,12 +17,20 @@ const Product = (props) => {
                     Колличество - {props.info.quantity} шт.<p/>
                     {Number(props.info.salePrice) / 100} руб.
                 </div>
-                <button className={classes.Button} onClick={()=>{
-                    props.addToCart(props.info);
-                }}> Добавить в корзину </button>
+                <NotificationButton
+                    className={classes.Button}
+                    onClick={() => {
+                        props.addToCart(props.info);
+                    }}
+                    notification="Товар добавлен"
+                    notificationClassName={classes.Notification}>
+
+                    Добавить в корзину
+
+                </NotificationButton>
             </div>
         </div>
     )
 };
 
-export default connect((state)=>({}), {addToCart:addProductToCart})(Product);
+export default connect((state) => ({}), {addToCart: addProductToCart})(Product);

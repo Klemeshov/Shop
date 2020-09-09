@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/common/DropDown/DropDown.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/common/DropDown/DropDown.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOC/withRedirect.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/common/NotificationButton/NotificationButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/common/NotificationButton/NotificationButton.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/SearchBar/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/SearchBar/SearchBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainContent/MainContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SearchPage/SearchPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SearchPage/SearchPageContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/Preloader/Loader.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Preloader/Loader.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/ProductsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ProductsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/SearchReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/SearchReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/DropDown/DropDown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/DropDown/DropDown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/DropDown/DropDown.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/DropDown/DropDown.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Product/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/Product/Product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Product/Product.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="JSX" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -175,7 +172,7 @@
       <workItem from="1598943090447" duration="10477000" />
       <workItem from="1598974915990" duration="740000" />
       <workItem from="1599559894005" duration="112000" />
-      <workItem from="1599657856665" duration="512000" />
+      <workItem from="1599657856665" duration="4356000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -352,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596033600684</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fix bug with 2 search requests">
+      <created>1599658636139</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599658636139</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test get request" />
     <MESSAGE value="add Server_script.js" />
     <MESSAGE value="before deploy 1" />
     <MESSAGE value="before deploy 2" />
@@ -397,7 +400,8 @@
     <MESSAGE value="Cart design" />
     <MESSAGE value="fix bug with validate" />
     <MESSAGE value="add a query to the remainder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a query to the remainder" />
+    <MESSAGE value="fix bug with 2 search requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug with 2 search requests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#ESLint" timestamp="1594696942397">
@@ -408,10 +412,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1594993032305" />
-    <state x="566" y="16" width="749" height="783" key="CommitChangelistDialog2" timestamp="1596033592413">
+    <state x="566" y="16" width="749" height="783" key="CommitChangelistDialog2" timestamp="1599658630958">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="566" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1596033592413" />
+    <state x="566" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599658630958" />
     <state x="576" y="264" key="FileChooserDialogImpl" timestamp="1594696783377">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -436,10 +440,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="558" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1599559922083" />
-    <state x="425" y="180" key="run.anything.popup" timestamp="1598950561333">
+    <state x="425" y="180" key="run.anything.popup" timestamp="1599658773943">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="180" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1598950561333" />
+    <state x="425" y="180" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1599658773943" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1594976778923">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
