@@ -15,9 +15,9 @@ const CartItem = (props) => {
                     {Number(props.info.salePrice) / 100} руб.
                 </div>
                 <div className={classes.CountContainer}>
-                    <button onClick={()=>{props.removeProduct(props.info.code)}}>-</button>
+                    <button onClick={()=>{props.removeProduct(props.info.code)}} className={classes.Button}>-</button>
                     <div className={classes.Count}>{props.info.count}</div>
-                    <button onClick={()=>{props.addProduct(props.info)}}>+</button>
+                    <button onClick={()=>{props.addProduct(props.info)}} className={classes.Button}>+</button>
                 </div>
                 <p/>
                 <div className={classes.Info}>
