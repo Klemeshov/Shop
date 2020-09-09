@@ -10,6 +10,7 @@ let initialState = {
     products: [],
     size: null,
     isFetching: false,
+    order: null,
     page: 0
 };
 

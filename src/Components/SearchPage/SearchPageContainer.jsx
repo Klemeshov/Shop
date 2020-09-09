@@ -13,14 +13,16 @@ class SearchPageContainer extends React.PureComponent {
     };
 
     componentDidMount() {
-        this.setState({value: new URLSearchParams(this.props.location.search).get("value")})
-        this.props.getProductsAfterSearch(10, 0, this.state.value)
+        this.setState({value: new URLSearchParams(this.props.location.search).get("value")});
+        if (this.state.value !== "")
+            this.props.getProductsAfterSearch(10, 0, this.state.value)
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         this.setState({value: new URLSearchParams(this.props.location.search).get("value")});
         if (this.state.value !== prevState.value) {
-            this.props.getProductsAfterSearch(10, 0, this.state.value)
+            if (this.state.value !== "")
+                this.props.getProductsAfterSearch(10, 0, this.state.value)
         }
     }
 

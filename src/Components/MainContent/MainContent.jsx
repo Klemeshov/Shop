@@ -9,12 +9,12 @@ const MainContent = (props) => {
     return (
         <div className={classes.container}>
             <div className={classes.content}>
-                <Route exact path='/'
-                       render={() => <DefaultPage/>}/>
                 <Route path='/search'
                        render={() => <SearchPageContainer/>}/>
                 <Route path='/cart'
                        render={() => <Cart/>}/>
+                <Route exact path='/'
+                       render={() => <DefaultPage/>}/>
             </div>
         </div>
     )

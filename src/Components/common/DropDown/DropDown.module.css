@@ -1,0 +1,13 @@
+.name{
+
+}
+
+.name:focus{
+    text-decoration: none;
+}
+
+.content{
+    background-color: white;
+    position: fixed;
+}
+
