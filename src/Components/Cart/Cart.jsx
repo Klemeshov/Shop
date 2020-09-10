@@ -21,6 +21,7 @@ class Cart extends React.Component {
                     {this.props.size > 0
                         ? this.props.products.map(product =>
                             <CartItem
+                                key={product.code}
                                 info={product}
                                 addProduct={this.props.addOneProduct}
                                 removeProduct={this.props.removeOneProduct}/>)

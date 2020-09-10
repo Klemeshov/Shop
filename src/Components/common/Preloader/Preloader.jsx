@@ -8,10 +8,19 @@ class Preloader extends React.Component {
         wait: false
     };
 
+    timer = null;
+
+    componentDidMount() {
+        this.timer = setTimeout(()=>{this.setState({wait: true})}, 400)
+    }
+
+    componentWillUnmount() {
+        clearTimeout(this.timer);
+    }
+
     render() {
 
         if (!this.state.wait) {
-            setTimeout(()=>{this.setState({wait: true})}, 400);
             return <></>;
         }
 

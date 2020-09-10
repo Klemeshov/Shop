@@ -8,13 +8,19 @@ class NotificationButton extends React.Component {
         isNotification: false
     };
 
+    timer = null;
     Click = () => {
         this.props.onClick();
         this.setState({isNotification: true});
-        setTimeout(() => {
+        clearTimeout(this.timer);
+        this.timer = setTimeout(() => {
             this.setState({isNotification: false})
         }, this.props.time || 1000);
     };
+
+    componentWillUnmount() {
+        clearTimeout(this.timer);
+    }
 
 
     render() {

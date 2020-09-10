@@ -11,7 +11,7 @@ const CartItem = (props) => {
             <div>
                 <div className={classes.Info}>
                     <h4>{props.info.name}</h4>
-                    Колличество - {props.info.volume} шт.<p/>
+                    Колличество - {props.info.quantity} шт.<p/>
                     {Number(props.info.salePrice) / 100} руб.
                 </div>
                 <div className={classes.CountContainer}>
