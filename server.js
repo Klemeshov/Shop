@@ -15,7 +15,7 @@ app.get('/*', function (req, res) {
 });
 
 app.listen(port, () => {
-    console.log("React app started");
+    console.log("React app started (port 3000)");
 });
 
 //-------------------------------------
