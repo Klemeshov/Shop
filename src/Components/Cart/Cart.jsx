@@ -5,6 +5,7 @@ import {addProductToCart, removeProductFromCart} from "../../redux/CartReducer";
 import Counterparty from "./Counterparty/Counterparty";
 import classes from "./Cart.module.css"
 
+
 class Cart extends React.Component {
     render() {
         let price = 0;

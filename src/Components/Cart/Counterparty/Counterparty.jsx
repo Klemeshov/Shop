@@ -63,7 +63,7 @@ const submitForm = (isCounterpartyCheck) => (formData) => {
 
 const Counterparty = (props) => {
     return (
-        <div>
+        <div className={classes.Content}>
             <div>
                 <CounterpartyForm onSubmit={submitForm(props.isCounterpartyCheck)}/>
             </div>

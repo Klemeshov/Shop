@@ -12,8 +12,7 @@ a {
 }
 
 .MainContent {
-    background-color: #DCDCDC;
-    /*background: url("./assets/img/MainContent/background.jpg") no-repeat center center fixed;*/
+    background-color: #e8e8e8;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

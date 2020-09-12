@@ -1,22 +1,26 @@
 import React from "react";
 import Product from "../Product/Product";
-import classes from "./ShowProducts.module.css";
+import classes from "./Paginator.module.css";
+import DropDown from "../DropDown/DropDown";
+import cl from "./ShowProducts.module.css"
 
 
-const Paginator = (props) =>{
+const Paginator = (props) => {
     let pageCount = Math.ceil(props.totalCount / props.pageSize);
     let pages = [];
     for (let i = 0; i < pageCount; i++) {
         pages.push(i);
     }
 
-    return(
+    return (
         <div className={classes.paginatorContainer}>
+            {pages.length > 1 &&
             <div className={classes.paginator}>
-                {pages.length > 1 &&
-                pages.map(p =>
+                {pages.map(p =>
                     <span
-                        onClick={()=>{props.changePage(p)}}
+                        onClick={() => {
+                            props.changePage(p)
+                        }}
                         className={props.page === p
                             ? classes.page + ' ' + classes.currentPage
                             : classes.page}
@@ -25,14 +29,31 @@ const Paginator = (props) =>{
                         </span>)
                 }
             </div>
+            }
         </div>
     )
-}
+};
 
 
 const ShowProducts = (props) => {
     return (
         <div>
+            <div className={cl.FindTotalCount}>
+                <h3>Найдено: {props.totalCount} {props.totalCount === 1 ? "товар" : "товара"}</h3>
+            </div>
+            <div className={cl.SortPanel}>
+                Отсортировать по:
+                <div className={cl.DropDown}>
+                    <DropDown name="-----------">
+                        <div>
+                            <button>Цене</button>
+                        </div>
+                        <div>
+                            <button>Имени</button>
+                        </div>
+                    </DropDown>
+                </div>
+            </div>
             <Paginator {...props}/>
             <div>
                 {props.products.length !== 0
@@ -40,7 +61,7 @@ const ShowProducts = (props) => {
                     : "Ничего нет"
                 }
             </div>
-           <Paginator {...props}/>
+            <Paginator {...props}/>
         </div>
     )
 };

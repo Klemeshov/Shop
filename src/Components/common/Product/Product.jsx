@@ -17,6 +17,7 @@ const Product = (props) => {
                     Колличество - {props.info.quantity} шт.<p/>
                     {Number(props.info.salePrice) / 100} руб.
                 </div>
+
                 <NotificationButton
                     className={classes.Button}
                     onClick={() => {

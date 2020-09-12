@@ -1,4 +1,4 @@
 .Notification{
-    position: relative;
+    position: absolute;
     display: table;
 }
