@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/DefaultPage/DefaultPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/DefaultPage/DefaultPageContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/SearchBar/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/SearchBar/SearchBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SearchPage/SearchPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SearchPage/SearchPageContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/Product/Product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Product/Product.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/ShowProducts/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/ShowProducts/Paginator.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/ProductsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ProductsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/SearchReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web_server_for_shop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web_server_for_shop/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web_server_for_shop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web_server_for_shop/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web_server_for_shop/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web_server_for_shop/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +177,7 @@
       <workItem from="1599941523457" duration="7451000" />
       <workItem from="1599951228055" duration="641000" />
       <workItem from="1600017881995" duration="3259000" />
-      <workItem from="1602231231875" duration="11201000" />
+      <workItem from="1602231231875" duration="11526000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -427,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599948397935</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add sort, delete duplicate code in reducers, fix bug with searchBar">
+      <created>1602242612775</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1602242612775</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second listener" />
     <MESSAGE value="localhost req" />
     <MESSAGE value="last commit before create app" />
     <MESSAGE value="clean test dependencies" />
@@ -472,7 +461,8 @@
     <MESSAGE value="Redesign" />
     <MESSAGE value="Redesign2 :)" />
     <MESSAGE value="Redesign 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redesign 3" />
+    <MESSAGE value="add sort, delete duplicate code in reducers, fix bug with searchBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sort, delete duplicate code in reducers, fix bug with searchBar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#ESLint" timestamp="1594696942397">
@@ -491,30 +481,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602236647658" />
-    <state x="566" y="16" width="749" height="783" key="CommitChangelistDialog2" timestamp="1599948395792">
+    <state x="566" y="16" width="749" height="783" key="CommitChangelistDialog2" timestamp="1602242606023">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="566" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599948395792" />
+    <state x="566" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1602242606023" />
     <state x="576" y="264" key="FileChooserDialogImpl" timestamp="1602238913897">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="576" y="264" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602238913897" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1602241610220">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1602242608184">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602241610220" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1602241610220">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602242608184" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1602242608183">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602241610220" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1602241610220">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602242608183" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1602242608183">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602241610220" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1602241610220">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602242608183" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1602242608184">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602241610220" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602242608184" />
     <state x="558" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1600017882740">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
