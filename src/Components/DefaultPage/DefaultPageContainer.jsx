@@ -1,19 +1,14 @@
 import React from "react";
 import {connect} from "react-redux";
-import {changePage, getProducts} from "../../redux/ProductsReducer";
+import {changePage, changeSort,changeSearchValue} from "../../redux/ProductsReducer";
 import Preloader from "../common/Preloader/Preloader";
 import ShowProducts from "../common/ShowProducts/ShowProducts";
 
 class DefaultPageContainer extends React.Component {
 
     componentDidMount() {
-        this.props.getProducts(10, 0);
+        this.props.changeSearchValue("");
     }
-
-    changePage = (page) => {
-        this.props.getProducts(10, page * 10);
-        this.props.changePage(page)
-    };
 
     render() {
         return (
@@ -26,7 +21,9 @@ class DefaultPageContainer extends React.Component {
                         totalCount={this.props.size}
                         pageSize={10}
                         page={this.props.page}
-                        changePage={this.changePage.bind(this)}
+                        changePage={this.props.changePage}
+                        sorted={this.props.sorted}
+                        changeSort={this.props.changeSort}
                     />
                 }
             </>
@@ -38,8 +35,9 @@ const mapStateToProps = (state) => ({
     products: state.products.products,
     size: state.products.size,
     isFetching: state.products.isFetching,
-    page: state.products.page
+    page: state.products.page,
+    sorted: state.products.sorted
 });
 
 
-export default connect(mapStateToProps, {getProducts, changePage})(DefaultPageContainer);
+export default connect(mapStateToProps, {changeSearchValue, changePage, changeSort})(DefaultPageContainer);

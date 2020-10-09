@@ -1,7 +1,6 @@
 import React from "react";
 import Product from "../Product/Product";
 import classes from "./Paginator.module.css";
-import DropDown from "../DropDown/DropDown";
 import cl from "./ShowProducts.module.css"
 
 
@@ -11,7 +10,6 @@ const Paginator = (props) => {
     for (let i = 0; i < pageCount; i++) {
         pages.push(i);
     }
-
     return (
         <div className={classes.paginatorContainer}>
             {pages.length > 1 &&
@@ -41,19 +39,19 @@ const ShowProducts = (props) => {
             <div className={cl.FindTotalCount}>
                 <h3>Найдено: {props.totalCount} {props.totalCount === 1 ? "товар" : "товара"}</h3>
             </div>
+            {props.products.length >= 2 &&
             <div className={cl.SortPanel}>
-                Отсортировать по:
-                <div className={cl.DropDown}>
-                    <DropDown name="-----------">
-                        <div>
-                            <button>Цене</button>
-                        </div>
-                        <div>
-                            <button>Имени</button>
-                        </div>
-                    </DropDown>
-                </div>
+                <span className={cl.SortPrediction}>Сортировать по:</span>
+                <span className={props.sorted === "salePrice" ? cl.CurrentSortItem : cl.SortItem}
+                      onClick={()=>{props.changeSort("salePrice")}}>
+                    Цене
+                </span>
+                <span className={props.sorted === "name" ? cl.CurrentSortItem : cl.SortItem}
+                      onClick={()=>{props.changeSort("name")}}>
+                    Имени
+                </span>
             </div>
+            }
             <Paginator {...props}/>
             <div>
                 {props.products.length !== 0

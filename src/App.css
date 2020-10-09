@@ -12,9 +12,9 @@ a {
 }
 
 .MainContent {
-    background-color: #e8e8e8;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #f3f3f3;
 }
+
+/**{*/
+/*    border: 1px solid black;*/
+/*}*/

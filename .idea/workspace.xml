@@ -3,10 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/CartItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/Counterparty/Counterparty.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Counterparty/Counterparty.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/DefaultPage/DefaultPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/DefaultPage/DefaultPageContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/SearchBar/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/SearchBar/SearchBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SearchPage/SearchPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SearchPage/SearchPageContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/common/Product/Product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Product/Product.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/ShowProducts/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/ShowProducts/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ProductsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ProductsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/SearchReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_server_for_shop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web_server_for_shop/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_server_for_shop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web_server_for_shop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_server_for_shop/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web_server_for_shop/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_server_for_shop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -79,11 +90,14 @@
       <recent name="C:\Users\dima-\PhpstormProjects\online_store" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.run">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/online_store/build/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/../web_server_for_shop">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -128,11 +142,12 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Node.js.server.js" />
       <item itemvalue="npm.npm start" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.run" />
       <item itemvalue="npm.start" />
-      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
@@ -176,7 +191,10 @@
       <workItem from="1599559894005" duration="112000" />
       <workItem from="1599657856665" duration="8669000" />
       <workItem from="1599735262754" duration="4721000" />
-      <workItem from="1599941523457" duration="6614000" />
+      <workItem from="1599941523457" duration="7451000" />
+      <workItem from="1599951228055" duration="641000" />
+      <workItem from="1600017881995" duration="3259000" />
+      <workItem from="1602231231875" duration="11201000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -402,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599947573171</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Redesign 3">
+      <created>1599948397935</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1599948397935</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="before deploy 4" />
     <MESSAGE value="second listener" />
     <MESSAGE value="localhost req" />
     <MESSAGE value="last commit before create app" />
@@ -447,56 +471,61 @@
     <MESSAGE value="fix console error with setTimeout" />
     <MESSAGE value="Redesign" />
     <MESSAGE value="Redesign2 :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redesign2 :)" />
+    <MESSAGE value="Redesign 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redesign 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#ESLint" timestamp="1594696942397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#ESLint/0.0.1536.864@0.0.1536.864" timestamp="1594696942397" />
-    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599947052417">
+    <state x="412" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602238925956">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1599947052417" />
-    <state x="499" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594993032305">
+    <state x="412" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1602238925956" />
+    <state x="548" y="136" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602238890275">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="499" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1594993032305" />
-    <state x="566" y="16" width="749" height="783" key="CommitChangelistDialog2" timestamp="1599948349507">
+    <state x="548" y="136" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.864@0.0.1536.864" timestamp="1602238890275" />
+    <state x="499" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602236647658">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="566" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599948349507" />
-    <state x="576" y="264" key="FileChooserDialogImpl" timestamp="1594696783377">
+    <state x="499" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602236647658" />
+    <state x="566" y="16" width="749" height="783" key="CommitChangelistDialog2" timestamp="1599948395792">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="576" y="264" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1594696783377" />
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1599947574735">
+    <state x="566" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599948395792" />
+    <state x="576" y="264" key="FileChooserDialogImpl" timestamp="1602238913897">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599947574735" />
-    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1599947574735">
+    <state x="576" y="264" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602238913897" />
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1602241610220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1599947574735" />
-    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1599947574735">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602241610220" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1602241610220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1599947574735" />
-    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1599947574735">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602241610220" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1602241610220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1599947574735" />
-    <state x="558" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1599941616874">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602241610220" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1602241610220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="558" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1599941616874" />
-    <state x="425" y="180" key="run.anything.popup" timestamp="1599658773943">
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602241610220" />
+    <state x="558" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1600017882740">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="180" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1599658773943" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1599942365190">
+    <state x="558" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1600017882740" />
+    <state x="425" y="180" key="run.anything.popup" timestamp="1602233330316">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1599942365190" />
+    <state x="425" y="180" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1602233330316" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1602231526981">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1602231526981" />
   </component>
 </project>

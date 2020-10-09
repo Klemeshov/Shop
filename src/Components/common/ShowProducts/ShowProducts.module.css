@@ -1,18 +1,46 @@
 .FindTotalCount {
     background-color: rgb(248, 249, 247);
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px 2px rgba(137, 130, 122, 0.58);
+    border-radius: 2px;
+    box-shadow: 3px 3px 8px 3px rgba(207, 199, 193, 0.58);
     margin: 10px 0;
     padding: 5px 25px;
 }
 
 .SortPanel {
-    background-color: rgb(248, 249, 247);
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px 2px rgba(137, 130, 122, 0.58);
-    margin: 10px 0;
+    border-radius: 2px;
+    margin-top: 21px;
     padding: 5px 25px;
     display: flex;
+}
+.SortPrediction{
+    background-color: rgb(248, 249, 247);
+    border-radius: 2px;
+    box-shadow: 3px 2px 8px 1px rgba(207, 199, 193, 0.58);
+    padding: 2px 5px;
+}
+
+.SortItem{
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 0 2px;
+    cursor: pointer;
+}
+
+.SortItem:hover{
+    background-color: skyblue;
+    color: white;
+    transition: 300ms;
+}
+
+.CurrentSortItem{
+    margin-left: 10px;
+    padding: 0 2px;
+    cursor: default;
+    color: coral;
+    border-bottom: coral 1px solid;
+}
+.CurrentSortItem:hover{
+    background-color: #e2e2e2;
 }
 
 .DropDown {

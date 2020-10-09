@@ -2,9 +2,9 @@ import React from "react";
 import {withRouter} from "react-router-dom";
 import {compose} from "redux";
 import {connect} from "react-redux";
-import {changePage, getProductsAfterSearch} from "../../redux/SearchReducer";
 import Preloader from "../common/Preloader/Preloader";
 import ShowProducts from "../common/ShowProducts/ShowProducts";
+import {changePage, changeSearchValue, changeSort} from "../../redux/ProductsReducer";
 
 
 class SearchPageContainer extends React.PureComponent {
@@ -15,22 +15,16 @@ class SearchPageContainer extends React.PureComponent {
     componentDidMount() {
         this.setState({value: new URLSearchParams(this.props.location.search).get("value")});
         if (this.state.value !== "")
-            this.props.getProductsAfterSearch(10, 0, this.state.value)
+            this.props.changeSearchValue(this.state.value)
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         this.setState({value: new URLSearchParams(this.props.location.search).get("value")});
         if (this.state.value !== prevState.value) {
             if (this.state.value !== "")
-                this.props.getProductsAfterSearch(10, 0, this.state.value)
+                this.props.changeSearchValue(this.state.value)
         }
     }
-
-    changePage = (page) =>{
-        this.props.getProductsAfterSearch(10, page * 10, this.state.value);
-        this.props.changePage(page)
-    };
-
 
     render() {
         return (
@@ -43,7 +37,9 @@ class SearchPageContainer extends React.PureComponent {
                         totalCount={this.props.size}
                         pageSize={10}
                         page={this.props.page}
-                        changePage={this.changePage.bind(this)}
+                        changePage={this.props.changePage}
+                        sorted={this.props.sorted}
+                        changeSort={this.props.changeSort}
                     />
                 }
             </>
@@ -52,15 +48,16 @@ class SearchPageContainer extends React.PureComponent {
 }
 
 const mapStateToProps = (state) => ({
-    searchValue: state.search.searchValue,
-    products: state.search.products,
-    size: state.search.size,
-    isFetching: state.search.isFetching,
-    page: state.search.page
+    searchValue: state.products.searchValue,
+    products: state.products.products,
+    size: state.products.size,
+    isFetching: state.products.isFetching,
+    page: state.products.page,
+    sorted: state.products.sorted
 });
 
 
 export default compose(
-    connect(mapStateToProps, {getProductsAfterSearch, changePage}),
+    connect(mapStateToProps, {changePage, changeSort, changeSearchValue}),
     withRouter
 )(SearchPageContainer);

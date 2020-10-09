@@ -3,21 +3,21 @@
 }
 
 .paginator {
-    margin: 5px auto;
+    margin: 4px auto 5px;
     align-content: center;
-    background-color: rgb(248, 249, 247);
-    border-radius: 30px;
+   /* background-color: rgb(248, 249, 247);*/
     padding: 5px 25px;
-    box-shadow: 5px 5px 5px 2px rgba(137, 130, 122, 0.58);
+    border-radius: 10px;
+   /* box-shadow: 3px 3px 8px 3px rgba(207, 199, 193, 0.58);*/
 }
 
 .page {
-    margin-left: 5px;
+    margin-left: 20px;
     padding: 0 4px;
     cursor: pointer;
-    font-size: 20px;
-    border-left: 1px solid skyblue;
-    border-right: 1px solid skyblue;
+    font-size: 18px;
+    /*border-left: 1px solid skyblue;
+    border-right: 1px solid skyblue;*/
     border-radius: 10px ;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .currentPage:hover {
-    background-color: white;
+    background-color: #e2e2e2;
     color: coral;
     cursor: default;
 }

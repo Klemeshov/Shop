@@ -3,7 +3,6 @@ import {NavLink, withRouter} from "react-router-dom";
 import SearchIcon from "./../../../assets/img/Header/search.png"
 import classes from "./SearchBar.module.css"
 import {compose} from "redux";
-import withRedirect from "../../../HOC/withRedirect";
 
 
 class SearchBar extends React.Component {
@@ -16,9 +15,9 @@ class SearchBar extends React.Component {
                     onChange={this.props.onValueChange}
                     value={this.props.currentValue}
                     placeholder="Search"
-                        onKeyPress={e => {
+                    onKeyPress={e => {
                         if (e.key === "Enter")
-                            this.props.submit("/search?value=" + this.props.currentValue)();
+                            this.props.history.push("/search?value=" + this.props.currentValue);
                     }}/>
                 <NavLink to={"/search?value=" + this.props.currentValue}>
                     <img className={classes.Img}
@@ -31,4 +30,4 @@ class SearchBar extends React.Component {
 }
 
 
-export default compose(withRouter, withRedirect)(SearchBar);
+export default compose(withRouter)(SearchBar);
