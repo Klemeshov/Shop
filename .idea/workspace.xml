@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="" />
+    <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/online_store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/online_store.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="JSX" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,15 +50,16 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_server_for_shop" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-server-for-shop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -60,6 +70,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,7 +84,7 @@
       <recent name="C:\Users\dima-\PhpstormProjects\online_store" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.server.js">
+  <component name="RunManager" selected="npm.run">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -141,6 +152,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -178,6 +190,8 @@
       <workItem from="1599951228055" duration="641000" />
       <workItem from="1600017881995" duration="3259000" />
       <workItem from="1602231231875" duration="11526000" />
+      <workItem from="1612279490330" duration="1269000" />
+      <workItem from="1612281211531" duration="5845000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -421,20 +435,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="localhost req" />
@@ -463,59 +476,5 @@
     <MESSAGE value="Redesign 3" />
     <MESSAGE value="add sort, delete duplicate code in reducers, fix bug with searchBar" />
     <option name="LAST_COMMIT_MESSAGE" value="add sort, delete duplicate code in reducers, fix bug with searchBar" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="91" key="#ESLint" timestamp="1594696942397">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="361" y="91" key="#ESLint/0.0.1536.864@0.0.1536.864" timestamp="1594696942397" />
-    <state x="412" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602238925956">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="412" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1602238925956" />
-    <state x="548" y="136" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602238890275">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="548" y="136" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.864@0.0.1536.864" timestamp="1602238890275" />
-    <state x="499" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602236647658">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="499" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602236647658" />
-    <state x="566" y="16" width="749" height="783" key="CommitChangelistDialog2" timestamp="1602242606023">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="566" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1602242606023" />
-    <state x="576" y="264" key="FileChooserDialogImpl" timestamp="1602238913897">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="576" y="264" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602238913897" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1602242608184">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602242608184" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1602242608183">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602242608183" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1602242608183">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602242608183" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1602242608184">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602242608184" />
-    <state x="558" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1600017882740">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="558" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1600017882740" />
-    <state x="425" y="180" key="run.anything.popup" timestamp="1602233330316">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="425" y="180" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1602233330316" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1602231526981">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1602231526981" />
   </component>
 </project>

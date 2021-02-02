@@ -7,5 +7,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="web_server_for_shop" />
+    <orderEntry type="module" module-name="web-server-for-shop" />
   </component>
 </module>
