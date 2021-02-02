@@ -29,9 +29,8 @@ class SearchPageContainer extends React.PureComponent {
     render() {
         return (
             <>
-                {this.props.isFetching
-                    ? <Preloader/>
-                    : <ShowProducts
+                {this.props.isFetching ? <Preloader/>:<div className="empty"/>}
+                    <ShowProducts
                         searchValue={this.props.searchValue}
                         products={this.props.products}
                         totalCount={this.props.size}
@@ -41,7 +40,7 @@ class SearchPageContainer extends React.PureComponent {
                         sorted={this.props.sorted}
                         changeSort={this.props.changeSort}
                     />
-                }
+
             </>
         )
     }
@@ -54,7 +53,7 @@ const mapStateToProps = (state) => ({
     isFetching: state.products.isFetching,
     page: state.products.page,
     sorted: state.products.sorted
-});
+})
 
 
 export default compose(

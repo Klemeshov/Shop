@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/dima_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/dima_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/online_store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/online_store.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/DefaultPage/DefaultPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/DefaultPage/DefaultPageContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SearchPage/SearchPageContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SearchPage/SearchPageContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/Preloader/Loader.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Preloader/Loader.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/Preloader/Preloader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Preloader/Preloader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/Preloader/Preloader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Preloader/Preloader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/common/Product/Product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Product/Product.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +40,7 @@
         <option value="JSX" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -60,7 +71,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-server-for-shop" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,15 +84,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dima-\PhpstormProjects\online_store\src\Components\common\ShowProducts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dima-\PhpstormProjects\online_store\src\assets\img\MainContent" />
       <recent name="C:\Users\dima-\PhpstormProjects\online_store\src\redux" />
       <recent name="C:\Users\dima-\PhpstormProjects\online_store\src\Components\common\Preloader" />
       <recent name="C:\Users\dima-\PhpstormProjects\online_store\src\Components\common" />
       <recent name="C:\Users\dima-\PhpstormProjects\online_store" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\OnlineStore\Shop\src\Components\common\Preloader" />
+      <recent name="C:\Users\dima-\PhpstormProjects\online_store\src\Components\common\ShowProducts" />
     </key>
   </component>
   <component name="RunManager" selected="npm.run">

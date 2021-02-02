@@ -4,25 +4,11 @@ import classes from "./Preloader.module.css"
 
 class Preloader extends React.Component {
 
-    state = {
-        wait: false
-    };
-
-    timer = null;
-
-    componentDidMount() {
-        this.timer = setTimeout(()=>{this.setState({wait: true})}, 400)
-    }
-
-    componentWillUnmount() {
-        clearTimeout(this.timer);
-    }
-
     render() {
 
-        if (!this.state.wait) {
-            return <></>;
-        }
+        // if (!this.state.wait) {
+        //     return <div className="empty"/>;
+        // }
 
         return (
             <div className={classes.Preloader}>

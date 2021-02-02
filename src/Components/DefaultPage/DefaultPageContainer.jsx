@@ -13,10 +13,9 @@ class DefaultPageContainer extends React.Component {
     render() {
         return (
             <>
-                {this.props.isFetching
-                    ? <Preloader/>
+                {this.props.isFetching ? <Preloader/>:<div className="empty"/>}
 
-                    : <ShowProducts
+                     <ShowProducts
                         products={this.props.products}
                         totalCount={this.props.size}
                         pageSize={10}
@@ -25,7 +24,7 @@ class DefaultPageContainer extends React.Component {
                         sorted={this.props.sorted}
                         changeSort={this.props.changeSort}
                     />
-                }
+
             </>
         )
     }
@@ -37,7 +36,7 @@ const mapStateToProps = (state) => ({
     isFetching: state.products.isFetching,
     page: state.products.page,
     sorted: state.products.sorted
-});
+})
 
 
 export default connect(mapStateToProps, {changeSearchValue, changePage, changeSort})(DefaultPageContainer);
