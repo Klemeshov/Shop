@@ -15,7 +15,8 @@ const Product = (props) => {
                 <div className={classes.Info}>
                     <h4>{props.info.name}</h4>
                     Колличество - {props.info.quantity} шт.<p/>
-                    {Number(props.info.salePrice) / 100} руб.
+                    {Number(props.info.salePrice)===0 ?"Цена не назначена": Number(props.info.salePrice) / 100 + "руб."}
+
                 </div>
 
                 <NotificationButton
