@@ -88,7 +88,7 @@ const ShowProducts = (props) => {
     return (
         <div>
             <div className={cl.FindTotalCount}>
-                <h3>Найдено: {props.totalCount} {props.totalCount === 1 ? "товар" : "товара"}</h3>
+                <h3>Найдено: {props.totalCount} {props.totalCount % 10 === 1 ? "товар" : "товара"}</h3>
             </div>
             {props.products.length >= 2 &&
             <div className={cl.SortPanel}>

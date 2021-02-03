@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="add sort, delete duplicate code in reducers, fix bug with searchBar">
-      <change afterPath="$PROJECT_DIR$/../web-server-for-shop/Controllers/ProductFolders.js" afterDir="false" />
+    <list default="true" id="54284ae5-cb9b-461b-b8bb-e50f0fe7b4c6" name="Default Changelist" comment="Change paginator(add arrows and ellipsis)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/Product/Product.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/common/ShowProducts/ShowProducts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-server-for-shop/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-server-for-shop/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +29,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../web-server-for-shop" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -193,7 +189,7 @@
       <workItem from="1602231231875" duration="11526000" />
       <workItem from="1612279490330" duration="1269000" />
       <workItem from="1612281211531" duration="5845000" />
-      <workItem from="1612349827357" duration="4177000" />
+      <workItem from="1612349827357" duration="5528000" />
     </task>
     <task id="LOCAL-00001" summary="test get request">
       <created>1589680824406</created>
@@ -433,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602242612775</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Change paginator(add arrows and ellipsis)">
+      <created>1612356172665</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1612356172665</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +455,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="localhost req" />
     <MESSAGE value="last commit before create app" />
     <MESSAGE value="clean test dependencies" />
     <MESSAGE value="Default page" />
@@ -477,6 +479,7 @@
     <MESSAGE value="Redesign2 :)" />
     <MESSAGE value="Redesign 3" />
     <MESSAGE value="add sort, delete duplicate code in reducers, fix bug with searchBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sort, delete duplicate code in reducers, fix bug with searchBar" />
+    <MESSAGE value="Change paginator(add arrows and ellipsis)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change paginator(add arrows and ellipsis)" />
   </component>
 </project>
