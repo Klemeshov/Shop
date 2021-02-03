@@ -5,10 +5,13 @@ const SET_FETCHING = "SET_FETCHING_PRODUCTS_REDUCER";
 const CHANGE_PAGE = "CHANGE_PAGE_PRODUCTS_REDUCER";
 const CHANGE_SORT = "CHANGE_SORT_PRODUCTS_REDUCER";
 const SET_SEARCH_VALUE = "SET_SEARCH_VALUE_PRODUCTS_REDUCER";
+const PUSH_QUEUE = "SET_QUEUE_PRODUCTS_REDUCER";
+const POP_QUEUE = "POP_QUEUE_PRODUCTS_REDUCER";
 
 let initialState = {
     searchValue: "",
     products: [],
+    reqQueue:[],
     size: null,
     isFetching: false,
     sorted: "name",
@@ -43,6 +46,16 @@ const ProductsReducer = (state = initialState, action) => {
                 ...state,
                 sorted: action.sorted
             };
+        case PUSH_QUEUE:
+            return{
+                ...state,
+                reqQueue: [...state.reqQueue, action.obj]
+            }
+        case POP_QUEUE:
+            return {
+                ...state,
+                reqQueue: state.reqQueue.filter((data, i)=>i!==0)
+            }
         default:
             return state
     }
@@ -50,13 +63,28 @@ const ProductsReducer = (state = initialState, action) => {
 
 const setProducts = (products, size) => ({type: GET_PRODUCTS, products, size});
 const setFetching = (fetch) => ({type: SET_FETCHING, fetch});
+const pushQueue = (obj) => ({type: PUSH_QUEUE, obj});
+const popQueue = () =>({type:POP_QUEUE})
+
 const getProducts = (limit, offset) => async (dispatch, getState) => {
-    dispatch(setFetching(true));
     window.scrollTo(0, 0);
     const {searchValue, sorted} = getState().products;
-    let data = await ProductsAPI.getProducts(limit, offset, searchValue, sorted);
+    dispatch(pushQueue({limit, offset, searchValue, sorted}));
+    if (!getState().products.isFetching)
+        dispatch(getProductsQue())
+}
 
-    dispatch(setProducts(data.products, data.size));
+const getProductsQue = () => async (dispatch, getState) => {
+    if (getState().products.isFetching) return;
+
+    dispatch(setFetching(true));
+
+    while(getState().products.reqQueue.length !== 0){
+        const {limit, offset, searchValue, sorted} = getState().products.reqQueue[0];
+        let data = await ProductsAPI.getProducts(limit, offset, searchValue, sorted);
+        dispatch(setProducts(data.products, data.size));
+        dispatch(popQueue());
+    }
     dispatch(setFetching(false));
 };
 
@@ -80,5 +108,7 @@ export const changeSearchValue = (searchValue) => async (dispatch) => {
     dispatch(setSort("name"));
     dispatch(getProducts(10, 0))
 };
+
+
 
 export default ProductsReducer;
